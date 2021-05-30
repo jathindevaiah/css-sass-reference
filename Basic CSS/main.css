@@ -1,3 +1,10 @@
 section {
   background: #ff1b68;
 }
+
+h1 {
+  color: white;
+
+  /* Adding font-family from google font - Anton */
+  font-family: 'Anton', sans-serif;
+}

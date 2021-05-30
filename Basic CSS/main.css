@@ -1,4 +1,5 @@
-section {
+/* select element by Id */
+#product-overview {
   background: #ff1b68;
 }
 
@@ -8,3 +9,13 @@ h1 {
   /* Adding font-family from google font - Anton */
   font-family: 'Anton', sans-serif;
 }
+
+/* select element by class name */
+.section-title {
+  color: #2ddf5c;
+}
+
+/* select element by attribute name
+[disabled]{
+  color: red;
+} */

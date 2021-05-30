@@ -1,20 +1,29 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* select element by Id */
 #product-overview {
   background: #ff1b68;
 }
 
-h1 {
+/* select element by class name */
+.section-title {
+  color: #2ddf5c;
+  /* font-family: inherit; */
+}
+
+/* Using Combinators */
+#product-overview h1 {
   color: white;
 
   /* Adding font-family from google font - Anton */
   font-family: 'Anton', sans-serif;
 }
 
-/* select element by class name */
-.section-title {
-  color: #2ddf5c;
+h1 {
+  font-family: sans-serif;
 }
-
 /* select element by attribute name
 [disabled]{
   color: red;

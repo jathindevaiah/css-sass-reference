@@ -1,5 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
+
+  /* if we wish to override default body margin of 8px */
+  margin: 0;
 }
 
 /* select element by Id */

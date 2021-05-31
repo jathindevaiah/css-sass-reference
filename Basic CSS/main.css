@@ -1,3 +1,9 @@
+/* Target all elements to use border-box box sizing
+  to consider padding and border for width and height */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 
@@ -8,15 +14,11 @@ body {
 /* select element by Id */
 #product-overview {
   background: #ff1b68;
-  padding: 20px;
-
-  border: 5px black solid;
-  /* The above line is a shorthand for  */
-  /* border-color: black;
-  border-width: 5px;
-  border-style: solid; */
-
-  margin: 20px;
+  width: 100%;
+  height: 528px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
 }
 
 /* select element by class name */

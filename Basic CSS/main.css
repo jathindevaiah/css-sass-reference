@@ -5,6 +5,15 @@ body {
 /* select element by Id */
 #product-overview {
   background: #ff1b68;
+  padding: 20px;
+
+  border: 5px black solid;
+  /* The above line is a shorthand for  */
+  /* border-color: black;
+  border-width: 5px;
+  border-style: solid; */
+
+  margin: 20px;
 }
 
 /* select element by class name */
